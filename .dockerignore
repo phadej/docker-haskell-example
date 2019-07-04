@@ -1,0 +1,20 @@
+# docker
+.dockerignore
+Dockerfile
+
+# git
+.git/
+.gitignore
+
+# cabal-install
+dist-newstyle/
+cabal.project.local
+
+# my editor(s)
+*.swp
+*.swo
+*.swn
+*~
+
+# documentation
+README.md

@@ -1,0 +1,13 @@
+cabal-version: 2.4
+name:          docker-haskell-example
+version:       0
+
+executable docker-haskell-example
+  default-language: Haskell2010
+  hs-source-dirs:   src/
+  main-is:          Main.hs
+  build-depends:
+    , base            ^>=4.11
+    , servant         ^>=0.16
+    , servant-server  ^>=0.16
+    , warp            ^>=3.2.27
