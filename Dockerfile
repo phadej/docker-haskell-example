@@ -46,6 +46,7 @@ RUN apt-get -yq --no-install-suggests --no-install-recommends install \
     liblapack-dev \
     liblzma-dev \
     libpq-dev \
+    libssl-dev \
     libyaml-dev \
     netbase \
     openssh-client \
@@ -115,6 +116,7 @@ RUN apt-get -yq update && apt-get -yq --no-install-suggests --no-install-recomme
     liblapack3 \
     liblzma5 \
     libpq5 \
+    libssl1.1 \
     libyaml-0-2 \
     netbase \
     openssh-client \

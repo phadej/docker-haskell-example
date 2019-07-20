@@ -7,7 +7,13 @@ executable docker-haskell-example
   hs-source-dirs:   src/
   main-is:          Main.hs
   build-depends:
-    , base            ^>=4.11
-    , servant         ^>=0.16
-    , servant-server  ^>=0.16
-    , warp            ^>=3.2.27
+    , base               ^>=4.11
+    , base16-bytestring  ^>=0.1.1.6
+    , base64-bytestring  ^>=1.0.0.2
+    , bytestring         ^>=0.10.8.2
+    , file-embed-lzma    ^>=0
+    , HsOpenSSL          ^>=0.11.4.16
+    , servant            ^>=0.16
+    , servant-server     ^>=0.16
+    , unix               ^>=2.7.2.2
+    , warp               ^>=3.2.27
